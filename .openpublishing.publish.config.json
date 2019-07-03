@@ -20,8 +20,10 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [
-    "live-sxs"
+  "branches_to_filter": [    
+    "live-sxs",
+    "live",
+    "docs-build-v3"
   ],
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
