@@ -19,13 +19,19 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [    
+  "branches_to_filter": [
+    "live",
     "live-sxs",
     "docs-build-v3-loc"
   ],
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
+  "contribution_branch_mappings": {
+    "live-sxs": "live",
+    "docs-build-v3-sxs":"docs-build-v3",
+    "docs-build-v3-loc-sxs": "docs-build-v3-loc"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
