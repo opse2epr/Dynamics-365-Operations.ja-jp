@@ -25,7 +25,7 @@
   ],
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": false, 
+  "need_preview_pull_request": false,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -45,7 +45,8 @@
       "branch": "live",
       "branch_mapping": {
         "live": "live",
-        "master": "master"
+        "master": "master",
+        "docs-build-v3-loc": "master"
       }
     }
   ],
